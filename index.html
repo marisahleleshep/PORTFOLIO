@@ -2,50 +2,130 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <header class="header">
-        <a href="#" class="logo">Portfolio</a>
         <nav class="navbar">
-         <a href="#" style="--i:1;"class="active">Home</a>
-         <a href="#" style="--i:2;">About Me</a>
-         <a href="#" style="--i:3;">Skills</a>
-         <a href="#"style="--i:4;">Projects</a>
-         <a href="#"style="--i:5;">Contacts</a>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#portfolio">Skills</a></li>
+                <li><a href="#services">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
         </nav>
-    </header>
-    <section class="home">
-        <div class="home-sci">
-            <a href="#"><i class='bx bxl-facebook'></i></a>
-            <a href="#"><i class='bx bxl-twitter'></i></a>
-            <a href="#"><i class='bx bxl-linkedin' ></i></a>
-            <a href="#"><i class='bx bxl-whatsapp' ></i></a>
-        </div>
-        <div class="home-content">
-            <h1>Hi,I'm Marisa Leleshep</h1>
-            <h3>Software Developer</h3>
-            <p>
-                Marisa is a highly motivated and dedicated software Developer, 
-                <br> who is always ready to deliver.
-                 She has a strong foundation in JavaScript, HTML/CSS, Python, and Kotlin. <br>
-                  She is excited to learn and develop her skills in tech.
-                </p>
-                <a href="#" class="btn">View Me</a>
-        </div>
-        <div class="home-img">
-            <div class="glowing-circle">
-                <span></span>
-                <span></span>
-                <div class="image">
-                    <img src="IMG/image/marii-PhotoRoom.png" alt="">
+
+        <section id="home">
+            <div class="main">
+                <h1 class="headings"> HELLO<i class="fa fa-hand-paper-o" aria-hidden="true"></i>,<br> I AM MARISA LELESHEP</h1>
+                <p class="headings"> A SOFTWARE DEVELOPER</p>
+                <button class="btn">Hire Me</button>
             </div>
-        </div>
-        </div>
-    </section>
+        </section>
+
+        <section id="about" class="about">
+            <h1 class="headings">ABOUT ME</h1>
+            <div id="pic">
+                <img src="IMG/image/marii-PhotoRoom.png" alt="" >
+                <div id="intro">
+                    <h2>MARISA LELESHEP</h2>
+                    <p class="me"> 
+                        Hey there, I'm marisa Leleshep! a software development student at Akirachix, I love building applications <br> 
+                        that are scalable, and user friendly with great aesthetics. <br> 
+                        I believe in such applications since it solves business needs and easy the lives of users. 
+                         <br>
+                           Let's connect to discuss how my skills and experience can benefit your organization.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="portfolio" class="portfolio">
+            <h1 class="headings">PROJECTS</h1>
+            <div class="gallery">
+
+                <div>
+               <a href=""> <img src="IMG/front.jpg" alt=""></a>
+               <div class="game">
+                <p><h1>Guesing Game!</h1>Generates a random number <br>that tells wheather the number <br> is too high or too low</p>
+                <p><h1>Tech Stack</h1>HTML, CSS, JavaScript</p>
+                <a href="https://github.com/marisahleleshep/GAME-APP"><button class="button">see More</button></a>
+            </div>
+            </div>
+            <div>
+                <a href=""><img src="IMG/front.jpg" alt=""></a>
+                <div class="game">
+                <p><h1>Password</h1>Created a Python script that generates <br> a random password</p>
+                <p><h1>Tech Stack</h1>Secrets</p>
+                <a href="https://github.com/marisahleleshep/Generate-password.git"><button class="button">see More</button></a>
+                </div>
+            </div>
+            <div>
+                <a href=""><img src="IMG/front.jpg" alt=""></a>
+                <div class="game">
+                <p><h1>Movies</h1> Created a React project that displays <br> a dynamic movie catalog with user-friendly <br> UI and search functionality.</p>
+                <p><h1>Tech Stack</h1>React.js, HTML, CSS, and utilized APIs for fetching movie data</p>
+                <a href="https://github.com/marisahleleshep/movie-application"><button class="button">see More</button></a>
+                </div>
+            </div>
+           
+            </div>
+        </section>
+
+        <section id="services" class="services">
+            <h1 class="headings">SKILLS</h1>
+            <div class="row">
+                <div class="box">
+                    <img src="IMG/image/marii-PhotoRoom.png" alt="">
+                    <h1 class="headings">Frontend <br> Developer</h1>
+                    <p id="paragraph1">Building beautiful, functional & <br> responsive websites. <br>Make your orders today</p>
+                    <br>
+                    <div class="paragraph2">
+                    <h2>Languages</h2>
+                    <p>HTML <br> CSS <br>JavaScript</p>
+                    
+                </div>
+                </div>
+                <div class="box">
+                    <img src="IMG/image/marii-PhotoRoom.png" alt="">
+                    <h1 class="headings">Backend <br> Developer</h1>
+                    <p class="paragraph2"> <br> Server-side Like Django for Python, &<br>  <br>Databases: Gain proficiency in working with databases like query databases effectively.</p>
+
+                </div>
+                <div class="box">
+                    <img src="IMG/image/marii-PhotoRoom.png" alt="">
+                    <h1 class="headings">UX/UI Designer</h1>
+                    <p class="paragraph2"> Created Mockups using adobe illustrator <br> and designed a landing page shop in Figma</p>
+                    <!-- <a href="https://github.com/marisahleleshep/Generate-password.git"><button class="button">see More</button></a> -->
+
+                </div>
+                <div class="box">
+                    <img src="IMG/image/marii-PhotoRoom.png" alt="">
+                    <h1 class="headings">Basic Tools</h1>
+                    <p class="paragraph2"> Visual Studio <br>Git <br>Github <br></p>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <h1 class="headings">CONTACT</h1>
+            <form action="" class="form">
+                <input type="text" name="name" class="input" placeholder="Enter Your Name">
+                <input type="email" name="email" class="input" placeholder="Enter Your Email">
+                <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+                <input type="submit" value="SEND" id="send">
+            </form>
+
+            <div class="icons">
+                <a href="https://twitter.com/LeleshepMa38470"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/marisa-leleshep/"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                <a href="https://github.com/marisahleleshep"><i class="fa fa-github" aria-hidden="true"></i></a>
+            </div>
+
+        </section>
 </body>
 </html>
